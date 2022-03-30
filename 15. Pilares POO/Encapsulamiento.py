@@ -33,3 +33,6 @@ print(b.cuenta())
 b.incremetar()
 print(b.cuenta())
 print(b.__contador)
+
+# El encapsulamiento es un atributo hecho para que 
+# solo pueda ser usado dentro de la misma clase
