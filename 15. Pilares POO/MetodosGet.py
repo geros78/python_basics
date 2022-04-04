@@ -1,3 +1,5 @@
+#El metodo get esta para obtener su valor, no modificarlo
+
 class A():
     def __init__(self):
         self._cuenta =0
