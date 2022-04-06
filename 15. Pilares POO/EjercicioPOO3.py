@@ -7,13 +7,13 @@ class Fabrica():
 class Carro(Fabrica):
     def datos(self):
         print("La cantidad de llantas es de: ",self.llantas)
-        print("El color del carro es : ",self.color)
+        print("El color del carro es: ",self.color)
         print("El precio del carro es $",self.precio)
 
 class Moto(Fabrica):
     def datos(self):
         print("La cantidad de llantas es de: ",self.llantas)
-        print("El color de la moto es : ",self.color)
+        print("El color de la moto es: ",self.color)
         print("El precio de la moto es $",self.precio) 
 
 moto = Moto(2,"Negro", 4000)
