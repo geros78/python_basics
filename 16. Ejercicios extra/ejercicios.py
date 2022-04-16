@@ -1,4 +1,4 @@
-
+import numpy as  np
 
 def longitud(array):
     cont =0
